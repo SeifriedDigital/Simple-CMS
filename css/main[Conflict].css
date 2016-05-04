@@ -1,0 +1,105 @@
+/*  Color Pallet    */
+/*  #E7F1FF - Blue/Grey     */
+/*  #B9C1CC - Light Blue    */
+/*  #5B9EFF - Blue      */
+/*  #50647F - Darkest Blue  */
+
+/* Imports */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,900);
+
+/* General */
+html {
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	background: #B9C1CC;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	max-width: 1024px;
+	background: #E7F1FF;
+	margin: 0 auto;
+}
+
+/* Global Header */
+header {
+	width: 100%;
+	min-height: 75px;
+	max-height: 75px;
+	background: #50647F;
+	margin-bottom: 25px;
+}
+
+header img {
+	height: 75px;
+	width: auto;
+	margin: 0 15px;
+}
+
+/* Floating nav right then floating li left displays li elements in same order as HTML */
+header nav {
+	width: auto;
+	max-width: 75%;
+	list-style: none;
+	float: right;
+}
+
+header nav ul {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding: 0 10px;
+	margin-right: 15px;
+	float: left;
+}
+
+header nav ul li:hover {
+	background: #5B9EFF;
+	box-shadow: inset 0 0 20px #50647F;
+}
+
+header nav ul li a {
+	display: inline-block;
+	font-weight: 700;
+	line-height: 75px;
+	text-decoration: none;
+	color: #E7F1FF;
+}
+/* End Global Header */
+
+/* Global Footer */
+footer {
+	height: 30px;
+	padding: 0 15px;
+	color: #E7F1FF;
+	background: #50647F;
+	margin-top: 25px;
+	line-height: 30px;
+}
+
+/* Global Main */
+main  {
+	padding: 0 25px;
+}
+
+main h1 {
+	margin: .5em 0;
+}
+/* End Global Main */
+
+/* Global Tables */
+table {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.15);
+}
+
+table th {
+	background: rgba(0, 0, 0, 0.35);
+}
+
